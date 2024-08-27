@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu" id="menu">
+                <a class="menu-element styled-link" href="#skills">Skills</a>
+                <a class="menu-element styled-link" href="#projects">Projects</a>
+                <a class="menu-element styled-link" href="#contact">Contact us</a>
+                <button class="close-button menu-element" onclick="closeMenu()">Close</button>
+            </div>
+            <button onclick="toggleMenu()" id="button" style="width: 7vmin; height: 7vmin;">
+                <img src="./images/menu.png" alt="" style="width: 100%;">
+            </button>
+            <div>
+                <h1 style="font-size: 2rem;">Ajeet Kumar</h1>
+            </div>
+            <div>
+                
+            </div>
+        </nav>
+       
+        <div class="header-content">
+            <img src="./images/Ajeet.jpeg" alt="" srcset="">
+            <h1>Hello, I'm Ajeet Kumar</h1>
+            <p>A Results-Driven Software Engineer with a Passion for Technology</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </header>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Java</li>
+            <li>Express.js</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a final-year Bachelor of Science(Physics) student at Patliputra University with a passion for technology. My curiosity
+            drives me to explore innovative solutions through software development and machine learning. I believe in
+            collaboration and continuous learning.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <div style="height: 46%;">
+                    <img src="./images/blog6.png" alt="Project 1">
+                </div>
+
+                <div style="height: 49%; display: flex; flex-direction: column; justify-content: end;">
+                    <h3>Blog Posting Platform</h3>
+                    <p>Developed a responsive blog application using React.js, Express.js, and MongoDB, allowing users
+                        to
+                        create and publish blogs with images. Implemented seamless image upload and storage, ensuring
+                        accessibility across smartphones and tablets.</p>
+                </div>
+                <div style="height: 5%; width: 99%; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <div style="height: 80%; width: 50%; border: 1px solid black;">
+                        <a style="text-decoration: none;" href="https://ajeet0486.github.io/BlogApp-Frontend/">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div style="height: 46%;">
+                    <img src="./images/N Queen.png" alt="Project 2">
+                </div>
+                <div style="height: 49%; display: flex; flex-direction: column; justify-content: end; ">
+                    <h3>N-Queen Visualizer</h3>
+                    <p>Developed an interactive N-Queen visualizer using JavaScript, HTML, and CSS, featuring efficient
+                        backtracking to display all solutions and an intuitive user interface for board size selection
+                        and real-time queen placement visualization, significantly enhancing user interaction.</p>
+                </div>
+                <div style="height: 5%; width: 99%; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <div style="height: 80%; width: 50%; border: 1px solid black;">
+                        <a style="text-decoration: none;"
+                            href="https://ajeet0486.github.io/N-Queen-Visualizer/">Link</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="project">
+                <div style="height: 46%;">
+                    <img src="./images/snake2.png" alt="Project 3">
+                </div>
+                <div style="height: 49%; display: flex; flex-direction: column; justify-content: end;">
+                    <h3>Snake Game</h3>
+                    <p>Developed a responsive Snake game using JavaScript, HTML, and CSS, optimized for mobile and
+                        desktop
+                        platforms, with on-screen buttons for mobile and keyboard controls for desktop, ensuring smooth
+                        performance through efficient game logic and rendering.</p>
+                </div>
+                <div style="height: 5%; width: 99%; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <div style="height: 80%; width: 50%; border: 1px solid black;">
+                        <a style="text-decoration: none;" href="https://ajeet0486.github.io/Snake-Game/">Link</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="project">
+                <div style="height: 46%;">
+                    <img src="./images/graph13.png" alt="Project 3">
+                </div>
+                <div style="height: 49%; display: flex; flex-direction: column; justify-content: end;">
+                    <h3>Graph Algorithms Visualizer</h3>
+                    <p>Created a web app to visualize graph algorithms using JavaScript, HTML, and CSS. Implemented
+                        Dijkstra, Breadth-First Search, Depth-First Search, and Bellman-Ford algorithms, managing graphs
+                        and queues for effective visualizations.</p>
+                </div>
+                <div style="height: 5%; width: 99%; display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <div style="height: 80%; width: 50%; border: 1px solid black;">
+                        <a style="text-decoration: none;"
+                            href="https://ajeet0486.github.io/Graph-Algorithms-Visualizer/">Link</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <ul class="contact-list" style="display: flex; flex-direction: column;">
+            <div style="display: flex; justify-content: center;">
+                <li><a style="text-decoration: none;" href="mailto:ajeetkumar95461857@gmail.com">ajeetkumar95461857@gmail.com</a></li>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <li>+91 9546185698</li>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <li><a style="text-decoration: none;" href="https://github.com/ajeet0486">GitHub</a></li>
+                <li><a style="text-decoration: none; margin-left: 14px;"
+                        href="https://www.linkedin.com/in/ajeet0486/">LinkedIn</a></li>
+            </div>
+        </ul>
+    </section>
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,36 @@
+.menu {
+    height: 50vmin;
+    width: 38vmin;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: -800px;
+    transition: left 0.2s ease-in-out;
+    z-index: 1000; /* Ensure it appears above other content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-element{
+    height:16%;
+}
+.styled-link {
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+
+}
+
+.styled-link:hover {
+    color: black; /* Change text color on hover */
+}
+
+.close-button {
+    margin-top: 20px;
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
